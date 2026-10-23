@@ -8,3 +8,6 @@ Drag to rotate and tap a visible patch to build. Keyboard: focus the planet; lef
 The renderer uses Fibonacci sphere positions, depth sorting, front-face hit testing and Canvas 2D projection. It works without WebGL. Forests use one water; bunnies use two. Rivers supply three. Two forests provide one animal home and forests also supply food. These intentionally simple fictional rules explain cause and effect; they are not scientific ecosystem or climate predictions.
 
 Original generated painted space backdrop; deterministic interactive planet, rivers, trees and creatures rendered in code.
+
+## Full-window cosmos update
+The former `planet-view` scenery is now a fixed, viewport-filling background behind the whole experience. The planet canvas remains transparent, with the name, orbit controls, life-support readings, mission card and building tools layered over the same continuous illustrated cosmos. Translucent panels preserve text contrast on desktop, tablet and phone; scrolling keeps every control accessible. Existing world storage, touch/keyboard controls and undo/redo are preserved.
